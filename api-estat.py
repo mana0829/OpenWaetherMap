@@ -3,6 +3,7 @@
 OpenWeatherMap からデータを取得する
 rev 0.0 クジラ飛行机,増補改訂Pythonによるスクレイピング＆機械学習 開発テクニック 初版,ソシム（株）,2019
 rev 0.1 入力フォーム追加 by M.Nakano
+rev 0.2 apikey変更 by M.Nakano
 """
 import requests
 import json, pprint
@@ -10,8 +11,8 @@ from tkinter import *
 from tkinter import ttk
 
 # APIキーの指定 - 以下を書き換えてください★ --- (※1)
-apikey = "474d59dd890c4108f62f192e0c6fce01"
-
+apikey = "556c2dd7923f2653ad118d89d374bf5b"
+          
 # 天気を調べたい都市の一覧 --- (※2)
 cities = ["Tokyo,JP", "London,UK", "New York,US"]
 # APIのひな型 --- (※3)
