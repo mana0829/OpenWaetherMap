@@ -14,7 +14,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 
 # APIキーの指定 - 以下を書き換えてください★ --- (※1)
-apikey = "556c2dd7923f2653ad118d89d374bf5b"
+apikey = "556ーー"
           
 # 天気を調べたい都市の一覧 --- (※2)
 cities = ["Tokyo,JP", "London,UK", "New York,US"]
